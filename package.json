@@ -1,0 +1,29 @@
+{
+  "name": "choo-snowpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:esm": "snowpack --include \"src/index.js\"",
+    "dev:serve": "pnpx serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^1.31.1",
+    "snowpack": "^1.4.0"
+  },
+  "dependencies": {
+    "choo": "^7.1.0",
+    "nanohtml": "^1.9.0"
+  },
+  "snowpack": {
+    "webDependencies": [
+      "choo/dist/bundle.js",
+      "nanohtml/dist/bundle.js"
+    ]
+  }
+}
