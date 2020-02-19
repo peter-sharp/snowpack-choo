@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:esm": "snowpack --include \"src/index.js\"",
-    "dev:serve": "pnpx serve",
+    "prepare": "snowpack",
+    "start": "npx serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
