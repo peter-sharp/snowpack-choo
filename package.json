@@ -11,9 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^11.0.2",
-    "@rollup/plugin-node-resolve": "^7.1.1",
-    "rollup": "^1.31.1",
     "snowpack": "^1.4.0"
   },
   "dependencies": {
